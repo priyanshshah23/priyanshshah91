@@ -46,7 +46,7 @@ class project extends Component {
             {/* <CardText>
             <b style={{paddingLeft:"105px"}}>Swachh Bin</b>            </CardText> */}
             <CardActions style={{backgroundColor:"#bdc3c7"}} border>
-              <Button href="https://github.com/priyanshshah23/Swachh-Bin" style={{display: "block", margin: "auto"}} colored>GitHub</Button>
+              <Button href="https://github.com/priyanshshah23/Swachh_bin" style={{display: "block", margin: "auto"}} colored>GitHub</Button>
             </CardActions>
           </Card>
 
@@ -61,11 +61,24 @@ class project extends Component {
              <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
             <CardTitle style={{color: 'black', height: '230px',paddingLeft:"118px", background: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTd-fLhCl5J8VE9xRzn5WaKa_dTyYOV6vU9u229RzjwccHQNWEo) center / cover'}} >Portfolio</CardTitle>
             <CardActions style={{backgroundColor:"#bdc3c7"}} border>
-              <Button href="https://github.com/priyanshshah23/priyanshshah" style={{display: "block", margin: "auto"}} colored>GitHub</Button>
+              <Button href="https://github.com/priyanshshah23/priyanshshah91" style={{display: "block", margin: "auto"}} colored>GitHub</Button>
+            
             </CardActions>
           </Card>
 
         
+          
+          <div className="projects-grid" style={{paddingTop: "40px"}}>
+             <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+            <CardTitle style={{color: 'black', height: '230px',paddingLeft:"30px"}} >Card_Memory_Game</CardTitle>
+            <CardActions style={{backgroundColor:"#bdc3c7"}} border>
+              <Button href="https://github.com/priyanshshah23/Card_memory_game" style={{display: "block", margin: "auto"}} colored>GitHub</Button>
+            
+            </CardActions>
+          </Card>
+
+        
+          </div>
           </div>
           )
         }
